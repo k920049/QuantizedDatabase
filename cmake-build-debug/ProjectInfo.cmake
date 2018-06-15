@@ -1,0 +1,7 @@
+set(QUANTIZATION_DATABASE_MATURITY "EP")
+set(QUANTIZATION_DATABASE_DESCRIPTION "")
+set(QUANTIZATION_DATABASE_GIT_ROOT_URL "https://github.com/k920049/QuantizedDatabase.git")
+set(QUANTIZATION_DATABASE_PACKAGE_URL "")
+set(QUANTIZATION_DATABASE_CI_URL "https://travis-ci.org/k920049/QuantizedDatabase")
+set(QUANTIZATION_DATABASE_CI_PNG "https://travis-ci.org/k920049/QuantizedDatabase.png")
+set(QUANTIZATION_DATABASE_ISSUES_URL "https://github.com/k920049/QuantizedDatabase/issues")

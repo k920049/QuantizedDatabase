@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/jeasungpark/CLionProjects/Quantization Database/./header" -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I"/Users/jeasungpark/CLionProjects/Quantization Database/./header" -I/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m -I/usr/local/lib/python3.6/site-packages/numpy/core/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

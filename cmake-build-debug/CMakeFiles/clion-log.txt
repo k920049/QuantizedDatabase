@@ -1,4 +1,10 @@
 /Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/jeasungpark/CLionProjects/Quantization Database"
+-- /usr/local/Cellar/python/3.6.5/bin/python3
+-- /usr/local/lib/python3.6/site-packages/numpy/core/include
+-- /usr/local/lib/python3.6/site-packages/numpy/core/include
+-- dummy
+-- /usr/local/lib/python3.6/site-packages/numpy/core/include
+-- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug

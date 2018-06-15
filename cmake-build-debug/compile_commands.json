@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBoost_NO_BOOST_CMAKE -DWARN_DEPRECATED -I\"/Users/jeasungpark/CLionProjects/Quantization Database/./header\" -I/usr/include/python2.7 -isystem /usr/local/include -isystem /usr/local/include/opencv  -g -arch x86_64 -fPIE   -std=gnu++14 -o CMakeFiles/Quantization_Database.dir/main.cpp.o -c \"/Users/jeasungpark/CLionProjects/Quantization Database/main.cpp\"",
+  "file": "/Users/jeasungpark/CLionProjects/Quantization Database/main.cpp"
+},
+{
+  "directory": "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBoost_NO_BOOST_CMAKE -DWARN_DEPRECATED -I\"/Users/jeasungpark/CLionProjects/Quantization Database/./header\" -I/usr/include/python2.7 -isystem /usr/local/include -isystem /usr/local/include/opencv  -g -arch x86_64 -fPIE   -std=gnu++14 -o CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o -c \"/Users/jeasungpark/CLionProjects/Quantization Database/src/database/database.cpp\"",
+  "file": "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/database.cpp"
+},
+{
+  "directory": "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBoost_NO_BOOST_CMAKE -DWARN_DEPRECATED -I\"/Users/jeasungpark/CLionProjects/Quantization Database/./header\" -I/usr/include/python2.7 -isystem /usr/local/include -isystem /usr/local/include/opencv  -g -arch x86_64 -fPIE   -std=gnu++14 -o CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o -c \"/Users/jeasungpark/CLionProjects/Quantization Database/src/database/knn.cpp\"",
+  "file": "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/knn.cpp"
+}
+]

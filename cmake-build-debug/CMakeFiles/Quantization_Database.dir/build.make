@@ -81,66 +81,14 @@ CMakeFiles/Quantization_Database.dir/main.cpp.o.provides: CMakeFiles/Quantizatio
 CMakeFiles/Quantization_Database.dir/main.cpp.o.provides.build: CMakeFiles/Quantization_Database.dir/main.cpp.o
 
 
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o: CMakeFiles/Quantization_Database.dir/flags.make
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o: ../src/database/database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o -c "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/database.cpp"
-
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quantization_Database.dir/src/database/database.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/database.cpp" > CMakeFiles/Quantization_Database.dir/src/database/database.cpp.i
-
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quantization_Database.dir/src/database/database.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/database.cpp" -o CMakeFiles/Quantization_Database.dir/src/database/database.cpp.s
-
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.requires:
-
-.PHONY : CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.requires
-
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.provides: CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.provides.build
-.PHONY : CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.provides
-
-CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.provides.build: CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o
-
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o: CMakeFiles/Quantization_Database.dir/flags.make
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o: ../src/database/knn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o -c "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/knn.cpp"
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/knn.cpp" > CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.i
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeasungpark/CLionProjects/Quantization Database/src/database/knn.cpp" -o CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.s
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.requires:
-
-.PHONY : CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.requires
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.provides: CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.provides.build
-.PHONY : CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.provides
-
-CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.provides.build: CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o
-
-
 # Object files for target Quantization_Database
 Quantization_Database_OBJECTS = \
-"CMakeFiles/Quantization_Database.dir/main.cpp.o" \
-"CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o" \
-"CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o"
+"CMakeFiles/Quantization_Database.dir/main.cpp.o"
 
 # External object files for target Quantization_Database
 Quantization_Database_EXTERNAL_OBJECTS =
 
 Quantization_Database: CMakeFiles/Quantization_Database.dir/main.cpp.o
-Quantization_Database: CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o
-Quantization_Database: CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o
 Quantization_Database: CMakeFiles/Quantization_Database.dir/build.make
 Quantization_Database: /usr/local/lib/libopencv_stitching.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_superres.3.4.1.dylib
@@ -168,6 +116,7 @@ Quantization_Database: /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_ximgproc.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_xphoto.3.4.1.dylib
+Quantization_Database: /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/libpython3.6.dylib
 Quantization_Database: /usr/local/lib/libopencv_shape.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_photo.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_dnn.3.4.1.dylib
@@ -186,7 +135,7 @@ Quantization_Database: /usr/local/lib/libopencv_objdetect.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_imgproc.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_core.3.4.1.dylib
 Quantization_Database: CMakeFiles/Quantization_Database.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Quantization_Database"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Quantization_Database"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Quantization_Database.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -195,8 +144,6 @@ CMakeFiles/Quantization_Database.dir/build: Quantization_Database
 .PHONY : CMakeFiles/Quantization_Database.dir/build
 
 CMakeFiles/Quantization_Database.dir/requires: CMakeFiles/Quantization_Database.dir/main.cpp.o.requires
-CMakeFiles/Quantization_Database.dir/requires: CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o.requires
-CMakeFiles/Quantization_Database.dir/requires: CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o.requires
 
 .PHONY : CMakeFiles/Quantization_Database.dir/requires
 

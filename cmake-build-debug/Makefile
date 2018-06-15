@@ -150,60 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/database/database.o: src/database/database.cpp.o
-
-.PHONY : src/database/database.o
-
-# target to build an object file
-src/database/database.cpp.o:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/database.cpp.o
-.PHONY : src/database/database.cpp.o
-
-src/database/database.i: src/database/database.cpp.i
-
-.PHONY : src/database/database.i
-
-# target to preprocess a source file
-src/database/database.cpp.i:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/database.cpp.i
-.PHONY : src/database/database.cpp.i
-
-src/database/database.s: src/database/database.cpp.s
-
-.PHONY : src/database/database.s
-
-# target to generate assembly for a file
-src/database/database.cpp.s:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/database.cpp.s
-.PHONY : src/database/database.cpp.s
-
-src/database/knn.o: src/database/knn.cpp.o
-
-.PHONY : src/database/knn.o
-
-# target to build an object file
-src/database/knn.cpp.o:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.o
-.PHONY : src/database/knn.cpp.o
-
-src/database/knn.i: src/database/knn.cpp.i
-
-.PHONY : src/database/knn.i
-
-# target to preprocess a source file
-src/database/knn.cpp.i:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.i
-.PHONY : src/database/knn.cpp.i
-
-src/database/knn.s: src/database/knn.cpp.s
-
-.PHONY : src/database/knn.s
-
-# target to generate assembly for a file
-src/database/knn.cpp.s:
-	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/src/database/knn.cpp.s
-.PHONY : src/database/knn.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +162,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/database/database.o"
-	@echo "... src/database/database.i"
-	@echo "... src/database/database.s"
-	@echo "... src/database/knn.o"
-	@echo "... src/database/knn.i"
-	@echo "... src/database/knn.s"
 .PHONY : help
 
 

@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/Users/jeasungpark/CLionProjects/Quantization Database/cmake
 CMakeFiles/Quantization_Database.dir/all:
 	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/depend
 	$(MAKE) -f CMakeFiles/Quantization_Database.dir/build.make CMakeFiles/Quantization_Database.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target Quantization_Database"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Quantization_Database"
 .PHONY : CMakeFiles/Quantization_Database.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/Quantization_Database.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Quantization_Database.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Quantization_Database.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Quantization_Database.dir/rule
