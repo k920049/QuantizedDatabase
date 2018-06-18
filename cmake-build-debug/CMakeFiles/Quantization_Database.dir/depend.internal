@@ -4,77 +4,6 @@
 CMakeFiles/Quantization_Database.dir/main.cpp.o
  .././header/data_read.h
  /Users/jeasungpark/CLionProjects/Quantization Database/main.cpp
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/Python.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/abstract.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/bltinmodule.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/boolobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/bytearrayobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/bytesobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/cellobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/ceval.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/classobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/code.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/codecs.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/compile.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/complexobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/descrobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/dictobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/dtoa.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/dynamic_annotations.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/enumobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/eval.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/fileobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/fileutils.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/floatobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/funcobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/genobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/import.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/intrcheck.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/iterobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/listobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/longintrepr.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/longobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/memoryobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/methodobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/modsupport.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/moduleobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/namespaceobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/object.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/objimpl.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/odictobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/osmodule.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/patchlevel.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyarena.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyatomic.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pycapsule.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyconfig.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyctype.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pydebug.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyerrors.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyfpe.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyhash.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pylifecycle.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pymacconfig.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pymacro.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pymath.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pymem.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pyport.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pystate.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pystrcmp.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pystrtod.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pythonrun.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/pytime.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/rangeobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/setobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/sliceobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/structseq.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/sysmodule.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/traceback.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/tupleobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/typeslots.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/unicodeobject.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/warnings.h
- /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m/weakrefobject.h
  /usr/local/include/boost/assert.hpp
  /usr/local/include/boost/config.hpp
  /usr/local/include/boost/config/compiler/borland.hpp
@@ -306,19 +235,6 @@ CMakeFiles/Quantization_Database.dir/main.cpp.o
  /usr/local/include/opencv2/videostab/ring_buffer.hpp
  /usr/local/include/opencv2/videostab/stabilizer.hpp
  /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+ /usr/local/include/opencv2/xfeatures2d.hpp
  /usr/local/include/opencv2/xfeatures2d/cuda.hpp
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/__multiarray_api.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/_numpyconfig.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/ndarrayobject.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/ndarraytypes.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/noprefix.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/npy_common.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/npy_cpu.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/npy_endian.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/npy_interrupt.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/numpyconfig.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/old_defines.h
- /usr/local/lib/python3.6/site-packages/numpy/core/include/numpy/utils.h
+ /usr/local/include/opencv2/xfeatures2d/nonfree.hpp

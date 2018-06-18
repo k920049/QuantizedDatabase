@@ -116,7 +116,7 @@ Quantization_Database: /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_ximgproc.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_xphoto.3.4.1.dylib
-Quantization_Database: /usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/libpython3.6.dylib
+Quantization_Database: /usr/lib/libpython2.7.dylib
 Quantization_Database: /usr/local/lib/libopencv_shape.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_photo.3.4.1.dylib
 Quantization_Database: /usr/local/lib/libopencv_dnn.3.4.1.dylib

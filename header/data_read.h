@@ -12,10 +12,54 @@
 #include <string>
 // OPENCV HEADERS
 #include <opencv2/opencv.hpp>
-// PYTHON BINDING
-#include <Python.h>
-#include <numpy/arrayobject.h>
 
+namespace cv
+{
+    class DataReader
+    {
+    public:
+
+        explicit DataReader(int _flags) : flags(_flags)
+        {
+
+        }
+
+        void read(std::string filename, Mat &res)
+        {
+            try
+            {
+                float length = 0;
+
+                FileStorage fs(filename, FileStorage::Mode::FORMAT_XML | FileStorage::Mode::READ);
+
+                fs["size"] >> length;
+                for (int i = 0; i < (int)length; ++i) {
+                    std::string key("image");
+                    std::string index = std::to_string(i);
+                    Mat image;
+
+                    key = key + index;
+                    fs[key.c_str()] >> image;
+                    std::cout << image.channels() << std::endl;
+                    res.push_back(image);
+                }
+
+                fs.release();
+            }
+            catch (Exception e)
+            {
+                std::cerr << e.msg << std::endl;
+            }
+
+        }
+
+    private:
+        int flags;
+    };
+}
+
+
+/*
 namespace cv
 {
     class Pickle
@@ -67,18 +111,17 @@ namespace cv
             return false;
         }
 
-        int read_data(const std::string _filename, Mat &batch)
+        int read_data(const std::string _filename, Mat &batch, int width, int height, int n_channel)
         {
+            Size image_size(width, height);
+
             pArgs = PyTuple_New(1);
             pName = PyUnicode_FromString(_filename.c_str());
 
             if (!pName)
             {
                 Py_DECREF(pArgs);
-                Py_DECREF(pModule);
-
                 fprintf(stderr, "Cannot convert argument");
-
                 return -1;
             }
 
@@ -87,46 +130,13 @@ namespace cv
             Py_DECREF(pName);
             Py_DECREF(pArgs);
 
-            if (PyList_Check(pValue))
+            if (pValue != nullptr && PyList_CheckExact(pValue))
             {
-                size_t elements = PyList_GET_SIZE(pValue);
-                int buffer[3][32][32];
-                Size dims(32, 32);
 
-                for (size_t i = 0; i < elements; i++)
-                {
-                    PyObject *cur = PyList_GET_ITEM(pValue, i);
-                    size_t index = 0;
-
-                    if (PyList_Check(cur))
-                    {
-                        Mat image;
-                        for (int channel = 0; channel < 3; ++channel) {
-                            for (int x = 0; x < 32; ++x) {
-                                for (int y = 0; y < 32; ++y) {
-                                    PyObject *pixel = PyList_GET_ITEM(cur, index);
-                                    buffer[channel][x][y] = (int)PyFloat_AS_DOUBLE(pixel);
-                                    index = index + 1;
-                                }
-                            }
-                            Mat each_channel(dims, CV_32F, buffer[channel]);
-                            image.push_back(each_channel);
-                        }
-                        batch.push_back(image);
-                        Py_XDECREF(cur);
-                    } else {
-                        Py_XDECREF(cur);
-                        return -1;
-                    }
-                }
-                return 1;
             }
             else
             {
-                if (pValue->ob_refcnt > 0)
-                {
-                    Py_DECREF(pValue);
-                }
+                Py_DECREF(pValue);
                 Py_DECREF(pFunc);
                 Py_DECREF(pModule);
                 PyErr_Print();
@@ -141,5 +151,6 @@ namespace cv
         std::string filename;
     };
 }
+ */
 
 #endif //QUANTIZATION_DATABASE_DATA_READ_H

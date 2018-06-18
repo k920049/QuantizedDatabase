@@ -5,7 +5,7 @@
 		<Option title="Quantization_Database"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\CMake\;CMake Files\CMake\common\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/jeasungpark/CLionProjects/Quantization Database/cmake-build-debug"/>
@@ -45,8 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/jeasungpark/CLionProjects/Quantization Database/./header"/>
-					<Add directory="/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m"/>
-					<Add directory="/usr/local/lib/python3.6/site-packages/numpy/core/include"/>
+					<Add directory="/usr/include/python2.7"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
@@ -71,8 +70,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/jeasungpark/CLionProjects/Quantization Database/./header"/>
-					<Add directory="/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/include/python3.6m"/>
-					<Add directory="/usr/local/lib/python3.6/site-packages/numpy/core/include"/>
+					<Add directory="/usr/include/python2.7"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
@@ -93,6 +91,9 @@
 		<Unit filename="/Users/jeasungpark/CLionProjects/Quantization Database/header/data_read.h">
 			<Option target="Quantization_Database"/>
 		</Unit>
+		<Unit filename="/Users/jeasungpark/CLionProjects/Quantization Database/header/feature_extract.h">
+			<Option target="Quantization_Database"/>
+		</Unit>
 		<Unit filename="/Users/jeasungpark/CLionProjects/Quantization Database/main.cpp">
 			<Option target="Quantization_Database"/>
 		</Unit>
@@ -110,9 +111,6 @@
 		</Unit>
 		<Unit filename="/Users/jeasungpark/CLionProjects/Quantization Database/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
-		</Unit>
-		<Unit filename="/Users/jeasungpark/CLionProjects/Quantization Database/CMake/common/FindNumpy.cmake">
-			<Option virtualFolder="CMake Files\CMake\common\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

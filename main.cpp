@@ -2,19 +2,19 @@
 #include <string>
 
 #include <data_read.h>
+#include <opencv2/xfeatures2d.hpp>
 
 
-const std::string data_name("../data/val/val_data");
+const std::string data_name("../data/converted/train0.xml");
 const std::string file_name("load_data");
 
 int main(int argc, const char *argv[])
 {
-    cv::Pickle *obj = new cv::Pickle(file_name);
+    int flags = 10;
+    cv::DataReader reader(flags);
+    cv::Mat tmp, cur;
 
-    cv::Mat data;
-    obj->read_data(data_name, data);
-
-    delete obj;
+    reader.read(data_name, tmp);
 
     return 0;
 }
